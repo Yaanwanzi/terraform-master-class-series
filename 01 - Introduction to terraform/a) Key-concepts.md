@@ -6,9 +6,9 @@
   - Managing and provisioning of infrastructure through code instead of manually
   - Files that contain configurations are created and makes it easy to edit and distribute
   - Ensures that the same environment is provisioned everytime.
-  - Helps avoid undocumented, ad-hoc configuration changes
+  - Helps avoid undocumented, ad-hoc configuration changes ( with terraform we can add a name tag to any changes done and documented)
   - Easy to version control
-  - Can create infrastructure in modular components
+  - Can create infrastructure in modular components ( s3 as a module, vpc as amodule, ec2 instance as a module)
   - Gives you a template to follow for provisioning
 
 ## b) **Benefits**
@@ -23,7 +23,7 @@
   - Used for building, changing and managing infrastructure in a safe, repeatable way
   - Uses HCL - Hashicorp Configuration Language - human readable
   - Reads configuration files and provides an execution plan which can be reviewed before being applied.
-  - It is platform agnostic - can manage a heterogeneous environment - multi cloud
+  - It is platform agnostic - can manage a heterogeneous environment - multi cloud.  ( can be used on MAC, windows etc as platform agnostic) [and as multi cloud we can use it on aws, GCP, Azure, helm, alibaba ( cloud agnostic)]
   - State management - creates a state file when a project is first initialized. Uses this state file to  create plans and make changes based on the desired and current state of the infrastructure.
   - Creates operator confidence
 
