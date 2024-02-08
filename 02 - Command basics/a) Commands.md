@@ -9,8 +9,7 @@
    approach, or JSON format if the files need to be machine-readable.
    - Configuration files that use the HCL format end with the .tf file extension;
    - Those using JSON format end with the .tf.json file extension.
-   - The Terraform format is human-readable, while the JSON format is machine readable xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
-
+   - The Terraform format is human-readable, while the JSON format is machine readable
 
 ## Terraform workflow 
 **terraform init**:
