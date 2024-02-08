@@ -24,7 +24,7 @@
   - Uses HCL - Hashicorp Configuration Language - human readable
   - Reads configuration files and provides an execution plan which can be reviewed before being applied.
   - It is platform agnostic - can manage a heterogeneous environment - multi cloud.  ( can be used on MAC, windows etc as platform agnostic) [and as multi cloud we can use it on aws, GCP, Azure, helm, alibaba ( cloud agnostic)]
-  - State management - creates a state file when a project is first initialized. Uses this state file to  create plans and make changes based on the desired and current state of the infrastructure.
+  - State management - creates a state file when a project is first initialized. Uses this state file to  create plans and make changes based on the desired and current state of the infrastructure. The state file will tell what is the state of the infst
   - Creates operator confidence
 
   ## **Terraform Configuration Files**
