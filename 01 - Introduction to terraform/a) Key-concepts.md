@@ -12,7 +12,7 @@
   - Gives you a template to follow for provisioning
 
 ## b) **Benefits**
-  - Cost reduction
+  - Cost reduction as same code can be used repeatedly.
   - Increase in speed of deployment
   - Reduce errors
   - Improve infrastructure consistency
