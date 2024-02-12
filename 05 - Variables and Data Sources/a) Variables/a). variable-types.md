@@ -41,7 +41,7 @@ variable "mylist" {
   default = ["Value1", "Value2"]
 }
 ```
-- How do you reference List values ?
+- How do you reference List values ? using index. The first value has index0, second has index 1 .......
 
      - instance_type = var.mylist[1]
 
@@ -51,8 +51,9 @@ variable "mylist" {
 variable "mymap" {
   type = map
   default = {
-    Key1 = "Value1"
-    Key2 = "Value2"
+    Key1 = "Value1" eg "dev" = "t2.micro"
+    Key2 = "Value2"  eg "test" = "t2.medium"
+    Key3 = "Value2"  eg "prod" = "t3.large"
   }
 }
 ```
